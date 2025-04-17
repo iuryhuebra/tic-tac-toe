@@ -56,6 +56,28 @@ function checkGame() {
             document.querySelector(`span[data-region="${key}.${1}"]`).classList.add('win')
             document.querySelector(`span[data-region="${key}.${2}"]`).classList.add('win')
             return true
-        }
+
+        } else if (board[0][key] == board[1][key] && board[0][key] == board[2][key] && board[1][key] == board[2][key]
+            && board[0][key] && board[1][key] && board[2][key]
+        ) {
+            document.querySelector(`span[data-region="${0}.${key}"]`).classList.add('win')
+            document.querySelector(`span[data-region="${1}.${key}"]`).classList.add('win')
+            document.querySelector(`span[data-region="${2}.${key}"]`).classList.add('win')
+            return true
+        
+        } else if (board[0][0] == board[1][1] && board[0][0] == board[2][2] && board[1][1] == board[2][2]
+            && board[0][0] && board[1][1] && board[2][2]
+        ) {
+            document.querySelector(`span[data-region="0.0"]`).classList.add('win')
+            document.querySelector(`span[data-region="1.1"]`).classList.add('win')
+            document.querySelector(`span[data-region="2.2"]`).classList.add('win')
+
+        } else if (board[0][2] == board[1][1] && board[0][2] == board[2][0] && board[1][1] == board[2][0]
+            && board[0][2] && board[1][1] && board[2][0]
+        ) {
+            document.querySelector(`span[data-region="0.2"]`).classList.add('win')
+            document.querySelector(`span[data-region="1.1"]`).classList.add('win')
+            document.querySelector(`span[data-region="2.0"]`).classList.add('win')
+        } 
     }
 }
