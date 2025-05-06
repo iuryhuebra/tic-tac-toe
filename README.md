@@ -41,4 +41,4 @@ Durante o desenvolvimento, foram praticados conceitos como:
 📌 Observações
 
 - O projeto é apenas para fins educacionais e prática de lógica com JavaScript básico.
--O CSS é propositalmente simples, focando na funcionalidade.
+- O CSS é propositalmente simples, focando na funcionalidade.
