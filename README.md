@@ -39,6 +39,6 @@ Durante o desenvolvimento, foram praticados conceitos como:
 - Organização de código em arquivos separados.
 
 📌 Observações
-
+--
 - O projeto é apenas para fins educacionais e prática de lógica com JavaScript básico.
 - O CSS é propositalmente simples, focando na funcionalidade.
