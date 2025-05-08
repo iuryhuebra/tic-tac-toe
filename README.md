@@ -30,7 +30,7 @@ Criar um jogo de dois jogadores onde:
 ![Preview do jogo](tictactoe.png)
 
 📚 Aprendizados
-
+--
 Durante o desenvolvimento, foram praticados conceitos como:
 
 - Manipulação do DOM com querySelector e dataset.
